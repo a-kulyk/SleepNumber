@@ -4,37 +4,219 @@
 	<title>MyTestPage</title>
 	<meta charset='UTF-8'>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+	<script src="jquery-2.1.4.min.js"></script>
+
 </head>
 <body>
 
-<header>
-	<div id="header">
-		<a href="google.com"><img src="./images/logo.png"></a>
-	
-	<div id="sign_up">
-		<p><strong>Looking for More Sleep Number Info?</strong></p>
-		<p>Sign up to receive our DVD, email news and deals. New customer? Get $50 in savings.</p>
-		<p><a href="google.com"><img src="./images/left_arrow.png">SING-UP NOW!</a></p>
-	</div>
-	</div>
-	<div id="search_bar">
-		Search Site 
-		<input type='search' name="topsearch"><input type='image' src='./images/left_arrow.png'>
-	</div>
-</header>
-<div class="center">	
-	<div id="sidebar">
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-	</div>
-	<div id="content">
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-	</div>
-	<div class="clr"></div>
-</div>
-<footer>
-	<div id="subscribe"></div>
-	<div id="links_info"></div>
+	<header>	
+		<div >	
+			<a href="http://www.google.com"><img src="images/logo.png" alt='logo'></a>	
+			
+			<div id="sign_up">	
+				<p><strong>Looking for More Sleep Number Info?</strong></p>
+				<p>Sign up to receive our DVD, email news and deals. New customer? Get $50 in savings.</p>
 
-</footer>
+				<p><a href="http://www.google.com"><i class="icon-circle-arrow-right"></i><strong>	SING-UP NOW!</strong></a></p>
+			</div>
+
+			<!-- <ul>
+				<li><img src="images/one.png" alt='one'>SHOP ONLINE</li>
+				<li></li>
+			</ul> -->
+			<img id='shop_image' src="images/shop.png" alt='shop'>
+		</div>
+
+		<div id="search_bar">
+			Search Site 
+			<input type='search' name="topsearch"><i class="icon-circle-arrow-right"></i>
+			<p id="link_bar"><a href="http://www.google.com">Bed Owners</a>|<a href="http://www.google.com">Check Order Status</a>|<a href="http://www.google.com">Custom Service</a></p>
+		</div>	
+		
+	</header>	
+	<div class="center">		
+		<div id="sidebar">	
+				<p class='group'> BUY </p>
+				<ul class="menu">
+					<li><a href="#"><i class="icon-circle-arrow-right"></i> Sleep Number Beds</a>
+						<ul>
+							<li><a href="#"> Classic series </a></li>
+							<li><a href="#"> Performance Series </a></li>
+							<li><a href="#"> Innovation Series </a></li>
+						</ul>
+					</li>
+					<li><a href="#"><i class="icon-circle-arrow-right"></i> Specialty Beds</a>
+						<ul>
+							<li><a href="#"> Bla-bla-bla </a></li>
+							<li><a href="#"> Bla-bla-bla </a></li>
+							<li><a href="#"> Bla-bla-bla </a></li>
+						</ul>
+					</li>
+					<li><a href="#"><i class="icon-circle-arrow-right"></i> Pillows & Beddings</a>
+						<ul>
+							<li><a href="#"> Bla-bla-bla </a></li>
+							<li><a href="#"> Bla-bla-bla </a></li>
+							<li><a href="#"> Bla-bla-bla </a></li>
+						</ul>
+					</li>
+					<li><a href="#"><i class="icon-circle-arrow-right"></i> Outlet </a>
+						<ul>
+							<li><a href="#"> Bla-bla-bla </a></li>
+							<li><a href="#"> Bla-bla-bla </a></li>
+							<li><a href="#"> Bla-bla-bla </a></li>
+						</ul>
+					</li>
+					<li><a href="#"><i class="icon-circle-arrow-right"></i> Bed Specials</a>
+						<ul>
+							<li><a href="#"> Bla-bla-bla </a></li>
+							<li><a href="#"> Bla-bla-bla </a></li>
+							<li><a href="#"> Bla-bla-bla </a></li>
+						</ul>
+					</li>
+				</ul>
+
+				<p class='group'> LEARN </p>
+				<ul class="menu">
+					<li><a href="#"><i class="icon-circle-arrow-right"></i> What Is A Sleep Number? </a>
+						<ul>
+							<li><a href="#"> Bla-bla-bla </a></li>
+							<li><a href="#"> Bla-bla-bla </a></li>
+							<li><a href="#"> Bla-bla-bla </a></li>
+						</ul>
+					</li>
+					<li><a href="#"><i class="icon-circle-arrow-right"></i> Sleep Number Research </a>
+						<ul>
+							<li><a href="#"> Bla-bla-bla </a></li>
+							<li><a href="#"> Bla-bla-bla </a></li>
+							<li><a href="#"> Bla-bla-bla </a></li>
+						</ul>
+					</li>
+					<li><a href="#"><i class="icon-circle-arrow-right"></i> Sleep Number Reviews </a>
+						<ul>
+							<li><a href="#"> Bla-bla-bla </a></li>
+							<li><a href="#"> Bla-bla-bla </a></li>
+							<li><a href="#"> Bla-bla-bla </a></li>
+						</ul>
+					</li>
+					<li><a href="#"><i class="icon-circle-arrow-right"></i> Compare Our Beds </a>
+						<ul>
+							<li><a href="#"> Bla-bla-bla </a></li>
+							<li><a href="#"> Bla-bla-bla </a></li>
+							<li><a href="#"> Bla-bla-bla </a></li>
+						</ul>
+					</li>
+					<li><a href="#"><i class="icon-circle-arrow-right"></i> Compare Our Bases </a>
+						<ul>
+							<li><a href="#"> Bla-bla-bla </a></li>
+							<li><a href="#"> Bla-bla-bla </a></li>
+							<li><a href="#"> Bla-bla-bla </a></li>
+						</ul>
+					</li>
+				</ul>
+
+				<p class='group'> TRY </p>
+				<ul class="menu">
+					<li><a href="#"><i class="icon-circle-arrow-right"></i> Find My Sleep Number? </a>
+						<ul>
+							<li><a href="#"> Bla-bla-bla </a></li>
+							<li><a href="#"> Bla-bla-bla </a></li>
+							<li><a href="#"> Bla-bla-bla </a></li>
+						</ul>
+					</li>
+					<li><a href="#"><i class="icon-circle-arrow-right"></i> How Sleep Number Works </a>
+						<ul>
+							<li><a href="#"> Bla-bla-bla </a></li>
+							<li><a href="#"> Bla-bla-bla </a></li>
+							<li><a href="#"> Bla-bla-bla </a></li>
+						</ul>
+					</li>
+					<li><a href="#"><i class="icon-circle-arrow-right"></i> Visit A Sleep Number Store </a>
+						<ul>
+							<li><a href="#"> Bla-bla-bla </a></li>
+							<li><a href="#"> Bla-bla-bla </a></li>
+							<li><a href="#"> Bla-bla-bla </a></li>
+						</ul>
+					</li>
+				</ul>
+
+				<p id="connect"><span class="icon-circle-arrow-right"></span> Connect with Us <i class="icon-facebook-sign" ></i><i class="icon-twitter-sign"></i></p>
+		</div>	
+		<div id="content">	
+				<a id='print' href="http://www.google.com"><i class="icon-print"></i> Printer Friendly</a>
+				<h2>i10 Sleep Number bed </h2>
+				<div class="photo-video">
+
+					<div class="tabs">
+  						<ul class="tabs__caption">
+  							<li class="active"> Photo </li>
+  							<li> Video </li>
+  						</ul>
+						
+						<div class="tabs__content active">
+							<img src="images/photo_main.png">
+						</div>
+			
+			  			<div class="tabs__content">
+						  	<iframe width="560" height="315" src="https://www.youtube.com/embed/M9AgGyiGHuA" frameborder="0" allowfullscreen></iframe>
+  						</div>
+					</div>
+				</div>	
+		</div>
+		<div class="clr"></div>
+	</div>
+	<footer>
+		<div id="subscribe"></div>
+		<div id="links_info"></div>
+	
+	</footer>
+
+	<script>
+		$(document).ready(function() {
+		  $('.menu>li>a').click(function() {
+		    if ($(this).parent().find('ul').length) {
+		      $(this).parent().find('ul').slideToggle(200);	
+		      $(this).children('i').toggleClass('icon-circle-arrow-down')			
+		      return false;
+		    }
+		  });
+		});
+	</script>
+
+	<script>
+		(function($) {
+			$(function() {
+
+  				$('ul.tabs__caption').on('click', 'li:not(.active)', function() {
+    				$(this)
+      					.addClass('active').siblings().removeClass('active')
+      					.closest('div.tabs').find('div.tabs__content').removeClass('active').eq($(this).index()).addClass('active');
+ 				});
+
+			});
+		})(jQuery);
+	</script>
+
+
 </body>
 </html>
+
+
+	// 	<script>
+	// 	$(document).ready(function() {
+	// 		$('.menu>li>a').click(function() {
+	// 	 	var element = $(this).parent('li');
+	// 	 	if (element.hasClass('open')) {
+ //            	element.removeClass('open');
+ //            	element.find('li').removeClass('open');
+ //            	element.find('ul').slideUp();
+ //        	} else {
+ //        	    element.addClass('open');
+ //        	    element.children('ul').slideDown();
+ //        	    element.siblings('li').children('ul').slideUp();
+ //        	    element.siblings('li').removeClass('open');
+ //        	    element.siblings('li').find('li').removeClass('open');
+ //        	    element.siblings('li').find('ul').slideUp()        		
+ //        	}
+	// 	});
+	// </script>

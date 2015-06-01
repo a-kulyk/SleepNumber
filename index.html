@@ -1,222 +1,330 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>MyTestPage</title>
-	<meta charset='UTF-8'>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
-	<script src="jquery-2.1.4.min.js"></script>
+	<head>
+		<title>MyTestPage</title>
+		<meta charset='UTF-8'>
+		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+		<script src="script/jquery-2.1.4.min.js"></script>
+		<script src="script/myscript.js"></script>
 
-</head>
-<body>
+	</head>
+	<body>
+		<div id="wrap">
+			<header>
+				<div class="logo">
+					<a href="http://www.google.com"><img src="images/logo.png" alt='logo'></a>
+				</div>
+				<div class="sign_up">
+					<p>Looking for More Sleep Number Info?</p>
+					<p>Sign up to receive our DVD, email news and deals. New customer? Get <span class="txt-important">$50 in savings</span>.</p>
+					<p><a href="http://www.google.com"><i class="icon-circle-arrow-right"></i><b>SING-UP NOW!</b></a></p>
+				</div>
+				<div class="cart-container">
+					<p><span class="circle-number">1</span>SHOP ONLINE | <a class="cart" href="#">Cart (0)</a></p><p></p>
+					<p class='tel'><tel>1-888-4111-2188</tel></p>
+					<p><span class="circle-number">3</span>FIND OUR STORES
+						<span><input type="text" placeholder="Enter Zip" size="8"/><i class="icon-circle-arrow-right"></i></span>
+					</p>
+				</div>
+				<div class="shop-img">
+					<img src="images/shop.png" alt='shop'>
+				</div>
+				<div class="clr"></div>	
+			</header>
 
-	<header>	
-		<div >	
-			<a href="http://www.google.com"><img src="images/logo.png" alt='logo'></a>	
-			
-			<div id="sign_up">	
-				<p><strong>Looking for More Sleep Number Info?</strong></p>
-				<p>Sign up to receive our DVD, email news and deals. New customer? Get $50 in savings.</p>
+			<nav>
+				Search Site
+				<input type='text' name="topsearch" ><i class="icon-circle-arrow-right"></i>
+				<p id="link_bar"><a href="http://www.google.com">Bed Owners</a>|<a href="http://www.google.com">Check Order Status</a>|<a href="http://www.google.com">Custom Service</a></p>
+			</nav>
 
-				<p><a href="http://www.google.com"><i class="icon-circle-arrow-right"></i><strong>	SING-UP NOW!</strong></a></p>
-			</div>
+			<div id="center">
+				<aside>
+					<p class='group'> BUY </p>
+					<ul class="menu">
+						<li><a href="#"><i class="icon-circle-arrow-right"></i> Sleep Number Beds</a>
+							<ul>
+								<li><a href="#"> Classic series </a></li>
+								<li><a href="#"> Performance Series </a></li>
+								<li><a href="#"> Innovation Series </a></li>
+							</ul>
+						</li>
+						<li><a href="#"><i class="icon-circle-arrow-right"></i> Specialty Beds</a>
+							<ul>
+								<li><a href="#"> Bla-bla-bla </a></li>
+								<li><a href="#"> Bla-bla-bla </a></li>
+								<li><a href="#"> Bla-bla-bla </a></li>
+							</ul>
+						</li>
+						<li><a href="#"><i class="icon-circle-arrow-right"></i> Pillows & Beddings</a>
+							<ul>
+								<li><a href="#"> Bla-bla-bla </a></li>
+								<li><a href="#"> Bla-bla-bla </a></li>
+								<li><a href="#"> Bla-bla-bla </a></li>
+							</ul>
+						</li>
+						<li><a href="#"><i class="icon-circle-arrow-right"></i> Outlet </a>
+							<ul>
+								<li><a href="#"> Bla-bla-bla </a></li>
+								<li><a href="#"> Bla-bla-bla </a></li>
+								<li><a href="#"> Bla-bla-bla </a></li>
+							</ul>
+						</li>
+						<li><a href="#"><i class="icon-circle-arrow-right"></i> Bed Specials</a>
+							<ul>
+								<li><a href="#"> Bla-bla-bla </a></li>
+								<li><a href="#"> Bla-bla-bla </a></li>
+								<li><a href="#"> Bla-bla-bla </a></li>
+							</ul>
+						</li>
+					</ul>
 
-			<!-- <ul>
-				<li><img src="images/one.png" alt='one'>SHOP ONLINE</li>
-				<li></li>
-			</ul> -->
-			<img id='shop_image' src="images/shop.png" alt='shop'>
-		</div>
+					<p class='group'> LEARN </p>
+					<ul class="menu">
+						<li><a href="#"><i class="icon-circle-arrow-right"></i> What Is A Sleep Number? </a>
+							<ul>
+								<li><a href="#"> Bla-bla-bla </a></li>
+								<li><a href="#"> Bla-bla-bla </a></li>
+								<li><a href="#"> Bla-bla-bla </a></li>
+							</ul>
+						</li>
+						<li><a href="#"><i class="icon-circle-arrow-right"></i> Sleep Number Research </a>
+							<ul>
+								<li><a href="#"> Bla-bla-bla </a></li>
+								<li><a href="#"> Bla-bla-bla </a></li>
+								<li><a href="#"> Bla-bla-bla </a></li>
+							</ul>
+						</li>
+						<li><a href="#"><i class="icon-circle-arrow-right"></i> Sleep Number Reviews </a>
+							<ul>
+								<li><a href="#"> Bla-bla-bla </a></li>
+								<li><a href="#"> Bla-bla-bla </a></li>
+								<li><a href="#"> Bla-bla-bla </a></li>
+							</ul>
+						</li>
+						<li><a href="#"><i class="icon-circle-arrow-right"></i> Compare Our Beds </a>
+							<ul>
+								<li><a href="#"> Bla-bla-bla </a></li>
+								<li><a href="#"> Bla-bla-bla </a></li>
+								<li><a href="#"> Bla-bla-bla </a></li>
+							</ul>
+						</li>
+						<li><a href="#"><i class="icon-circle-arrow-right"></i> Compare Our Bases </a>
+							<ul>
+								<li><a href="#"> Bla-bla-bla </a></li>
+								<li><a href="#"> Bla-bla-bla </a></li>
+								<li><a href="#"> Bla-bla-bla </a></li>
+							</ul>
+						</li>
+					</ul>
 
-		<div id="search_bar">
-			Search Site 
-			<input type='search' name="topsearch"><i class="icon-circle-arrow-right"></i>
-			<p id="link_bar"><a href="http://www.google.com">Bed Owners</a>|<a href="http://www.google.com">Check Order Status</a>|<a href="http://www.google.com">Custom Service</a></p>
-		</div>	
-		
-	</header>	
-	<div class="center">		
-		<div id="sidebar">	
-				<p class='group'> BUY </p>
-				<ul class="menu">
-					<li><a href="#"><i class="icon-circle-arrow-right"></i> Sleep Number Beds</a>
-						<ul>
-							<li><a href="#"> Classic series </a></li>
-							<li><a href="#"> Performance Series </a></li>
-							<li><a href="#"> Innovation Series </a></li>
-						</ul>
-					</li>
-					<li><a href="#"><i class="icon-circle-arrow-right"></i> Specialty Beds</a>
-						<ul>
-							<li><a href="#"> Bla-bla-bla </a></li>
-							<li><a href="#"> Bla-bla-bla </a></li>
-							<li><a href="#"> Bla-bla-bla </a></li>
-						</ul>
-					</li>
-					<li><a href="#"><i class="icon-circle-arrow-right"></i> Pillows & Beddings</a>
-						<ul>
-							<li><a href="#"> Bla-bla-bla </a></li>
-							<li><a href="#"> Bla-bla-bla </a></li>
-							<li><a href="#"> Bla-bla-bla </a></li>
-						</ul>
-					</li>
-					<li><a href="#"><i class="icon-circle-arrow-right"></i> Outlet </a>
-						<ul>
-							<li><a href="#"> Bla-bla-bla </a></li>
-							<li><a href="#"> Bla-bla-bla </a></li>
-							<li><a href="#"> Bla-bla-bla </a></li>
-						</ul>
-					</li>
-					<li><a href="#"><i class="icon-circle-arrow-right"></i> Bed Specials</a>
-						<ul>
-							<li><a href="#"> Bla-bla-bla </a></li>
-							<li><a href="#"> Bla-bla-bla </a></li>
-							<li><a href="#"> Bla-bla-bla </a></li>
-						</ul>
-					</li>
-				</ul>
+					<p class='group'> TRY </p>
+					<ul class="menu">
+						<li><a href="#"><i class="icon-circle-arrow-right"></i> Find My Sleep Number? </a>
+							<ul>
+								<li><a href="#"> Bla-bla-bla </a></li>
+								<li><a href="#"> Bla-bla-bla </a></li>
+								<li><a href="#"> Bla-bla-bla </a></li>
+							</ul>
+						</li>
+						<li><a href="#"><i class="icon-circle-arrow-right"></i> How Sleep Number Works </a>
+							<ul>
+								<li><a href="#"> Bla-bla-bla </a></li>
+								<li><a href="#"> Bla-bla-bla </a></li>
+								<li><a href="#"> Bla-bla-bla </a></li>
+							</ul>
+						</li>
+						<li><a href="#"><i class="icon-circle-arrow-right"></i> Visit A Sleep Number Store </a>
+							<ul>
+								<li><a href="#"> Bla-bla-bla </a></li>
+								<li><a href="#"> Bla-bla-bla </a></li>
+								<li><a href="#"> Bla-bla-bla </a></li>
+							</ul>
+						</li>
+					</ul>
 
-				<p class='group'> LEARN </p>
-				<ul class="menu">
-					<li><a href="#"><i class="icon-circle-arrow-right"></i> What Is A Sleep Number? </a>
-						<ul>
-							<li><a href="#"> Bla-bla-bla </a></li>
-							<li><a href="#"> Bla-bla-bla </a></li>
-							<li><a href="#"> Bla-bla-bla </a></li>
-						</ul>
-					</li>
-					<li><a href="#"><i class="icon-circle-arrow-right"></i> Sleep Number Research </a>
-						<ul>
-							<li><a href="#"> Bla-bla-bla </a></li>
-							<li><a href="#"> Bla-bla-bla </a></li>
-							<li><a href="#"> Bla-bla-bla </a></li>
-						</ul>
-					</li>
-					<li><a href="#"><i class="icon-circle-arrow-right"></i> Sleep Number Reviews </a>
-						<ul>
-							<li><a href="#"> Bla-bla-bla </a></li>
-							<li><a href="#"> Bla-bla-bla </a></li>
-							<li><a href="#"> Bla-bla-bla </a></li>
-						</ul>
-					</li>
-					<li><a href="#"><i class="icon-circle-arrow-right"></i> Compare Our Beds </a>
-						<ul>
-							<li><a href="#"> Bla-bla-bla </a></li>
-							<li><a href="#"> Bla-bla-bla </a></li>
-							<li><a href="#"> Bla-bla-bla </a></li>
-						</ul>
-					</li>
-					<li><a href="#"><i class="icon-circle-arrow-right"></i> Compare Our Bases </a>
-						<ul>
-							<li><a href="#"> Bla-bla-bla </a></li>
-							<li><a href="#"> Bla-bla-bla </a></li>
-							<li><a href="#"> Bla-bla-bla </a></li>
-						</ul>
-					</li>
-				</ul>
+					<p class="connect"><span class="icon-circle-arrow-right"></span> Connect with Us <a href="http://www.google.com">
+						<img src="images/facebook.png"></a>&nbsp;<a href="http://www.google.com"><img src="images/twitter.png"></a></p>
+				</aside>
+				<div id="content">	
+					<a id='print' href="http://www.google.com"><i class="icon-print"></i> Printer Friendly</a>
+					<h2>i10 Sleep Number bed </h2>
 
-				<p class='group'> TRY </p>
-				<ul class="menu">
-					<li><a href="#"><i class="icon-circle-arrow-right"></i> Find My Sleep Number? </a>
-						<ul>
-							<li><a href="#"> Bla-bla-bla </a></li>
-							<li><a href="#"> Bla-bla-bla </a></li>
-							<li><a href="#"> Bla-bla-bla </a></li>
-						</ul>
-					</li>
-					<li><a href="#"><i class="icon-circle-arrow-right"></i> How Sleep Number Works </a>
-						<ul>
-							<li><a href="#"> Bla-bla-bla </a></li>
-							<li><a href="#"> Bla-bla-bla </a></li>
-							<li><a href="#"> Bla-bla-bla </a></li>
-						</ul>
-					</li>
-					<li><a href="#"><i class="icon-circle-arrow-right"></i> Visit A Sleep Number Store </a>
-						<ul>
-							<li><a href="#"> Bla-bla-bla </a></li>
-							<li><a href="#"> Bla-bla-bla </a></li>
-							<li><a href="#"> Bla-bla-bla </a></li>
-						</ul>
-					</li>
-				</ul>
-
-				<p id="connect"><span class="icon-circle-arrow-right"></span> Connect with Us <i class="icon-facebook-sign" ></i><i class="icon-twitter-sign"></i></p>
-		</div>	
-		<div id="content">	
-				<a id='print' href="http://www.google.com"><i class="icon-print"></i> Printer Friendly</a>
-				<h2>i10 Sleep Number bed </h2>
-				<div class="photo-video">
-
-					<div class="tabs">
-  						<ul class="tabs__caption">
-  							<li class="active"> Photo </li>
-  							<li> Video </li>
-  						</ul>
+					<section class="main">
 						
-						<div class="tabs__content active">
-							<img src="images/photo_main.png">
+						<div class="tabs">
+							<ul class="tabs-caption">
+								<li class="active"> Photo </li>
+								<li> Video </li>
+							</ul>
+							<div class="tabs-content active">
+								<img src="images/photo_main.png">
+							</div>
+							<div class="tabs-content">
+								<iframe width="383" height="250" src="https://www.youtube.com/embed/M9AgGyiGHuA" frameborder="0" allowfullscreen></iframe>
+							</div>
+							<div class="photo-gallery"> 
+								<ul>
+									<li><a href="#"><i class="icon-chevron-left"></i></a></li>
+									<li><a href="#"><img src="images/gall1.png"></a></li>
+									<li><a href="#"><img src="images/gall2.png"></a></li>
+									<li><a href="#"><img src="images/gall3.png"></a></li>
+									<li><a href="#"><img src="images/gall4.png"></a></li>
+									<li><a href="#"><i class="icon-chevron-right"></i></a></li>
+								</ul>
+								<div class="zoom">
+									<input type="image" src="images/zoombtn.png" name="zoom"  />
+									<input type="image" src="images/enlarge.png" name="enlarge"  />
+								</div>
+							</div>
+							<div class="clr"></div>
 						</div>
-			
-			  			<div class="tabs__content">
-						  	<iframe width="560" height="315" src="https://www.youtube.com/embed/M9AgGyiGHuA" frameborder="0" allowfullscreen></iframe>
-  						</div>
-					</div>
-				</div>	
+						
+						<div class="rating-container">
+							<div class="rating"><p>RATING:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<span class="icon-star"></span><span class="icon-star"></span><span class="icon-star"></span><span class="icon-star"></span><span class="icon-star-half-empty"></span><span class='mark'><b>4.7</b> out of <b>5</b></span></p>
+								<!-- <p class='mark'><b>4.7</b> out of <b>5</b></p> -->
+								<p class='read-write' ><a class="tiny-link simple" href="http://www.google.com">Read all 32 reviews</a> | 
+									<a class="tiny-link simple" href="http://www.google.com">Write a review</a></p>
+							</div>
+							<div class="filters">
+								<form action='action' method='GET'>
+									<div class="forms">
+										<p>SIZE:&nbsp;<a class='tiny-link' href="http://www.google.com">View Size Chart</a></p>
+										<select name='size'>
+											<option value='queen'>Queen</option>
+											<option value='king'>King</option>
+											<option value='princess'>Princess</option>
+										</select>
+									</div>
+									<div class="forms">
+										<p>Base:&nbsp;<a class='tiny-link' href="http://www.google.com">(Recmmended)</a></p>
+										<select name='base'>
+											<option >Select a base</option>
+											<option>Wool</option>
+											<option>Silk</option>
+										</select>
+									</div>
+									<div class="forms">	
+										<p><a class='tiny-link' href="http://www.google.com">MATTRESS PROTECTION</a></p>
+										<select name='protection'>
+											<option >Select a protection</option>
+											<option>Normal</option>
+											<option>High</option>
+										</select>
+									</div>
+									<div class="clr-fix"></div>
+									<p><input type="image" src="images/add-bed-sm.png" name="submitForm" id="addToCart" /></p.
+								</form>					
+							</div>
+							<div class="social">
+								<button type="button"><img src='images/share.png'></button>
+								<p><a href="http://www.google.com">EMAIL A FRIEND</a></p>
+							</div>
+						</div>
+						<div class="clr"></div>
+					</section>
+					<section class="reviews">
+					    <div class="tabs">
+							<ul class="tabs-caption">
+								<li>Bed Details</li>
+								<li>Base Options</li>
+								<li class="active">Reviews</li>
+							</ul> 
+							<div class="tabs-content">
+								<h3>Bed Details</h3><br>
+								<p>Exclusive SLEEP NUMBER<sup>®</sup> DualAir<sup>™</sup> technology lets you quietly adjust firmness on each side of the mattress for ideal comfort.</p><br>
+								<p>The Sleep Number<sup>®</sup> bed is the only bed that lets you track and optimize your sleep with SleepIQ<sup>®</sup> technology.</p><br>
+								<p>15-inch Duvet-style Pillowtop features advanced temperature balancing sleep surface to absorb excess heat and release it to keep you sleeping comfortably.</p><br>
+								<p>Ergonomic, dual-layer design lets you individualize your comfort with memory foam and a soothing layer of our proprietary PlushFit<sup>™</sup> foam.</p>
+							</div>  
+							<div class="tabs-content">
+								<h3>Base Opt</h3><br>
+								<h4>Sleep Number<sup>®</sup> Modular Base Legs</h4><br>
+								<h4>Sleep Number<sup>®</sup> Headboard and Footboard Brackets</h4><br>
+								<h4>Sleep Number<sup>®</sup> Rolling Bed Frame</h4>
+
+							</div>
+							<div class="tabs-content active">
+								<p><a class='tiny-link' href="http://www.google.com">Printable Reviews</a></p><br>
+								<p class='sort-order'><a class='tiny-link bold' href="http://www.google.com"><b>Review This Product</b></a>
+									<select>
+										<option>Choose a sort order</option>
+										<option>Newest First</option>
+										<option>Highest rating</option>
+										<option>Popular</option>
+									</select>
+								</p><br><br>
+								<table>
+									
+									<td>
+										<div class='categories'>
+											<div class='plus-minus'>
+												<p>Overall:<span id='overall'><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></span></p>
+												<p>Comfort:<span><i class="icon-minus"></i>&nbsp;<i class="icon-minus"></i>&nbsp;<i class="icon-minus"></i>&nbsp;<i class="icon-minus"></i>&nbsp;<i class="icon-minus"></i></span></p>
+												<p>Quality:<span><i class="icon-minus"></i>&nbsp;<i class="icon-minus"></i>&nbsp;<i class="icon-minus"></i>&nbsp;<i class="icon-minus"></i>&nbsp;<i class="icon-minus"></i></span></p>
+												<p>Value:<span><i class="icon-minus"></i>&nbsp;<i class="icon-minus"></i>&nbsp;<i class="icon-minus"></i>&nbsp;<i class="icon-minus"></i>&nbsp;<i class="icon-minus" style='color:#DEDEDE'></i></span></p>
+											</div>
+											<div>
+												<p><b>High Desert Sleeper</b></p>
+												<p>Location: <b>Santa-Fe, NM</b></p>
+											</div>
+										</div>
+									</td>
+									<td>
+										<p><img src="images/sun.png"  alt='sun'></p>
+										<p>Date: November 9, 2007</p>
+										<p>"I used to always watch TV in my bedroom until I got this bed. Now, as soon as Iget into this remarkable bed, I can't keep my eyes open but for about 10 minutes. I have to set the sleep timer on the TV or it stays on all night...it's happened many times. So, if you buy this bed (and you won't regret even its expensiveness) be prepared for a GREAT night's sleep! I can't say enough good about this bed, but be sure you get their BEST! Trust me, you may want to buy the less expensive models, but don't do it. Trust your instinkts and go FIRST CLASS!"</p><br>
+										<p><b>247</b> of <b>277</b> people found this review helpful.</p><br>
+										<p><i>Was this review helpful to you? <a class='tiny-link bold' href="http://www.google.com">Yes</a> <a class='tiny-link bold' href="http://www.google.com">No</a> <a class='tiny-link simple' href="http://www.google.com">(Report Inappropriate Review) </a></i></p>
+										<p><i>Vote recorded. Vote may take up to 12 hours to daily</i></p>
+									</td>
+									
+								</table>
+								<div>
+									<span class="pages">1-4 of 32</span><a class='next-page tiny-link simple' href="http://www.google.com">Next Page</a>	
+								</div>
+							</div>
+					    </div>	
+					    <div class="clr"></div>			
+					</section>
+				</div>
+				<div class="clr"></div>
+			</div>
+			<div class="push"></div>
 		</div>
-		<div class="clr"></div>
-	</div>
-	<footer>
-		<div id="subscribe"></div>
-		<div id="links_info"></div>
-	
-	</footer>
 
-	<script>
-		$(document).ready(function() {
-		  $('.menu>li>a').click(function() {
-		    if ($(this).parent().find('ul').length) {
-		      $(this).parent().find('ul').slideToggle(200);	
-		      $(this).children('i').toggleClass('icon-circle-arrow-down')			
-		      return false;
-		    }
-		  });
-		});
-	</script>
+		<footer>
+			<div id="subscribe">
 
-	<script>
-		(function($) {
-			$(function() {
-
-  				$('ul.tabs__caption').on('click', 'li:not(.active)', function() {
-    				$(this)
-      					.addClass('active').siblings().removeClass('active')
-      					.closest('div.tabs').find('div.tabs__content').removeClass('active').eq($(this).index()).addClass('active');
- 				});
-
-			});
-		})(jQuery);
-	</script>
-
-
-</body>
+				<p>Receive the latest news on our products, research and promotions: 
+					<input type='text' placeholder="Enter email adress">Country: 
+					<select>
+						<option>USA</option>
+						<option>Ukraine</option>
+						<option>Canada</option>
+					</select>
+					<i class="icon-circle-arrow-right"></i>
+				</p>
+			</div>
+			<div id="links_info">
+				<p>
+					<a href="#">Home</a>|
+					<a href="#">About Us</a>|
+					<a href="#">Careers</a>|
+					<a href="#">Contact Us</a>|
+					<a href="#">Special</a>|
+					<a href="#">Shipping Option</a>|
+					<a href="#">Folleto En Espanol</a>|
+					<a href="#">Privacy & Security</a>|
+					<a href="#">Site Map</a>|
+					<a href="#">Company Blog</a>
+				</p><br><br>
+				<p>&copy; 2000-2010 Select Comfort SLEEP NUMBER, SELECT COMFORT and Double Arrow Design are registered trademarks and THE SLEEP NUMBER BED BY SELECT COMFORT is a trademark of Select Comfort Corporation. <a href="#">More legal</a></p>
+			</div>
+		</footer>
+	</body>
 </html>
 
-
-	// 	<script>
-	// 	$(document).ready(function() {
-	// 		$('.menu>li>a').click(function() {
-	// 	 	var element = $(this).parent('li');
-	// 	 	if (element.hasClass('open')) {
- //            	element.removeClass('open');
- //            	element.find('li').removeClass('open');
- //            	element.find('ul').slideUp();
- //        	} else {
- //        	    element.addClass('open');
- //        	    element.children('ul').slideDown();
- //        	    element.siblings('li').children('ul').slideUp();
- //        	    element.siblings('li').removeClass('open');
- //        	    element.siblings('li').find('li').removeClass('open');
- //        	    element.siblings('li').find('ul').slideUp()        		
- //        	}
-	// 	});
-	// </script>
